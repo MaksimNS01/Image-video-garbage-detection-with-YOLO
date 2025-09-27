@@ -1,3 +1,20 @@
-# Image video garbage detection with YOLO
+# Система обнаружения мусора с помощью YOLOv8
+Система компьютерного зрения для автоматического обнаружения и классификации мусора на изображениях и видео с использованием модели YOLOv8.
 
-We will use the YOLOv8 object detection model to detect garbage in images and videos in real time. We will explore how computer vision techniques using OpenCV and YOLO can simplify the garbage detection process. This project includes two Python programs, one for garbage detection on images and one for garbage detection on real-time video.
+## Функциональность
+* Обнаружение мусора на статических изображениях  
+* Обработка видео в реальном времени  
+* Классификация 6 категорий мусора  
+* Визуализация bounding boxes с confidence scores  
+* Сравнение предсказаний с ground truth данными  
+* Расчет метрик качества детекции  
+
+## Технологии
+YOLOv8l - модель обнаружения объектов  
+OpenCV 4.x - компьютерное зрение  
+Ultralytics - фреймворк для YOLO  
+Google Colab - облачная среда выполнения  
+Roboflow - платформа для датасетов  
+
+## Лицензия
+Проект предназначен для образовательных и исследовательских целей. Для коммерческого использования необходимо учитывать лицензии используемых библиотек и моделей.
